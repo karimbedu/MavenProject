@@ -2,10 +2,12 @@ package MavenDemo;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 
 public class GitDemo {
-  @Test
+ WebDriver driver;
+	@Test
   public void f() {
   }
   @BeforeTest
